@@ -1,4 +1,4 @@
-const {Thought,Users}=require('../models');
+const {Thought,User}=require('../models');
 
 module.exports={
     async getThoughts(req,res){
@@ -39,8 +39,8 @@ module.exports={
         res.status(404).json({ message: 'No thought with that Id' });
       }
 
-      await Users.deleteMany({ _id: { $in: course.users } });
-      res.json({ message: 'Thoughts and Users deleted!' });
+      await User.deleteMany({ _id: { $in: thought.user } });
+      res.json({ message: 'Thought and User deleted!' });
     } catch (err) {
       res.status(500).json(err);
     }
