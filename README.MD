@@ -5,6 +5,8 @@
 
 ## Description:
 
+This Social Network Web application is made so that users can engage with sharing their thoughts and even creating a new user. As well as reacting to a friend's written thoughts and being able to create a friend list. This application will be utilizing Express.js, MongoDB database, and the Mongoose ODM. As well as Javascript being incorporated in this code. This application supports dynamic user interactions and content sharing within the platform.
+
 ## Table of Contents
 
 - [Title](#title)
@@ -47,3 +49,4 @@ Mock
 https://github.com/scerda8/-Social-Media-API-.git
 
 ### Video Link:
+https://app.screencastify.com/v3/watch/1P6dX6XL3rwqLJnLTPZw
